@@ -1,17 +1,13 @@
-import telebot
-from config import TOKEN
-from handlers import register_handlers
+from bot_instance import bot  # Импортируем bot
+from handlers import register_handlers  # Импортируем функцию регистрации хендлеров
 from excel_manager import initialize_excel
-
-# Инициализация бота
-bot = telebot.TeleBot(TOKEN)
-
-# Инициализация Excel файла
 initialize_excel()
+from handlers import register_handlers
+register_handlers(bot)
 
-# Регистрация обработчиков
+# Регистрируем хендлеры
 register_handlers(bot)
 
 # Запуск бота
-bot.polling(none_stop=True)
-
+if __name__ == "__main__":
+    bot.polling(none_stop=True)

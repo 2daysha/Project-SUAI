@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="631ff6b9-212b-453b-887d-fa45b042595f" name="Changes" comment="" />
+    <list default="true" id="631ff6b9-212b-453b-887d-fa45b042595f" name="Changes" comment="обнова">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_manager.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/project_manager.xlsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,6 +70,14 @@
       <option name="presentableId" value="Default" />
       <updated>1732119396135</updated>
     </task>
+    <task id="LOCAL-00001" summary="обнова">
+      <created>1732125217137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732125217137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="обнова" />
+    <option name="LAST_COMMIT_MESSAGE" value="обнова" />
   </component>
 </project>
